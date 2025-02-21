@@ -111,7 +111,8 @@ button:hover {
 }
 
 button:disabled,
-button:disabled:hover {
+button:disabled:hover,
+input:disabled {
   background-color: #ddd;
   color: #333;
   cursor: not-allowed;
