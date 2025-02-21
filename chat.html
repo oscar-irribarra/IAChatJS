@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba open IA</title>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <h2>IA Chat</h2>
+      </div>
+      <div id="chat" class="chat-body">
+        <!-- content -->
+      </div>
+      <div class="chat-footer">
+        <div class="input-container">
+          <input
+            id="input_message"
+            type="text"
+            class="chat-input"
+            placeholder="Type a message"
+          />
+          <button id="send_button" class="send-button">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+        <div class="inline-buttons">
+          <button id="inputFile_button" class="inline-button">
+            <i class="fas fa-paperclip"></i>
+          </button>
+          <button class="inline-button" disabled>
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <button class="inline-button" disabled>
+            <i class="fas fa-microphone"></i>
+          </button>
+        </div>
+
+        <input style="display: none" type="file" id="file_input" />
+      </div>
+    </div>
+  </body>
+  <script src="chat.js"></script>
+</html>
